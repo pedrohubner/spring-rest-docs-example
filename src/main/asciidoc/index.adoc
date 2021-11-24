@@ -1,0 +1,9 @@
+= Greetings API Doc
+
+This is an example output for service running at http://localhost:8080:
+
+.request
+include::{snippets}/../snippets/home/http-request.adoc[]
+
+.response
+include::{snippets}/../snippets/home/http-response.adoc[]
