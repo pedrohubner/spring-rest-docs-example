@@ -1,9 +1,34 @@
-= Greetings API Doc
+= Documentation
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:toc: left
+:toclevels: 4
+:sectlinks:
+:sectnums:
 
-This is an example output for service running at http://localhost:8080:
+= Introduction
+Documentation.
 
-.request
-include::{snippets}/../snippets/home/http-request.adoc[]
+== ProductRestController
 
-.response
-include::{snippets}/../snippets/home/http-response.adoc[]
+Controller that contains APIs that return product's information.
+
+=== Search Product
+
+==== cURL Sample
+.cUrl
+include::{snippets}/../snippets/product-rest-controller-test/should-get-greeting/curl-request.adoc[]
+
+==== Request Structure
+.Request
+include::{snippets}/../snippets/product-rest-controller-test/should-get-greeting/http-request.adoc[]
+
+==== Response Sample
+
+.Response
+include::{snippets}/../snippets/product-rest-controller-test/should-get-greeting/http-response.adoc[]
+
+.Response Body
+include::{snippets}/../snippets/product-rest-controller-test/should-get-greeting/response-body.adoc[]
